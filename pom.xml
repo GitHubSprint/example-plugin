@@ -12,11 +12,14 @@
         <mainClass>pl.sprint.test.plugin.Main</mainClass>
     </properties>
     <dependencies>
+        <!-- please download and compile below projects in your environment -->
+        <!-- https://github.com/GitHubSprint/sprint-bot-ext-interface -->
         <dependency>
             <groupId>pl.sprint</groupId>
             <artifactId>sprint-bot-ext-interface</artifactId>
             <version>1.0.2</version>            
-        </dependency>
+        </dependency>      
+        <!-- https://github.com/GitHubSprint/sprint-bot-client -->
         <dependency>
             <groupId>pl.sprint</groupId>
             <artifactId>sprint-bot-client</artifactId>
